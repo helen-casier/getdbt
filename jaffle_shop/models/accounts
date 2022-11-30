@@ -1,0 +1,5 @@
+with accounts as (
+
+    select * from raw.tpcprodddb.account where accountstatus not in [16,20]}
+
+),

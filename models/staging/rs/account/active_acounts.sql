@@ -1,0 +1,1 @@
+select * from raw.tpcprodddb.account limit 10

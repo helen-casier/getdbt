@@ -1,0 +1,1 @@
+select * from raw.tpcproddb.account where accountstatus not in (16,20);

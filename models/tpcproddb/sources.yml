@@ -1,0 +1,3015 @@
+version: 2
+
+sources:
+  - name: tpcproddb
+    description: ""
+    tables:
+      - name: account
+        description: "This is table that includes all details about somebody that made an account, aka left their email address and telephone number"
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accessroles
+            description: ""
+          - name: accountstatus
+            description: ""
+          - name: actiondate
+            description: ""
+          - name: additionalname
+            description: ""
+          - name: age
+            description: ""
+          - name: allsmsread
+            description: ""
+          - name: allergies
+            description: ""
+          - name: allowhybrid
+            description: ""
+          - name: allowrxchange
+            description: ""
+          - name: allowtelemed
+            description: ""
+          - name: dayssupply
+            description: ""
+          - name: deletedat
+            description: ""
+          - name: dob
+            description: ""
+          - name: elationdata
+            description: ""
+          - name: email
+            description: ""
+          - name: firstname
+            description: ""
+          - name: gender
+            description: ""
+          - name: hasupdatedfield
+            description: ""
+          - name: inheritedroles
+            description: ""
+          - name: initialzipcode
+            description: ""
+          - name: lastname
+            description: ""
+          - name: lastoffhourtextsenttime
+            description: ""
+          - name: lastshippingdate
+            description: ""
+          - name: lastsms
+            description: ""
+          - name: lastunreadsmscount
+            description: ""
+          - name: medablekey
+            description: ""
+          - name: medableprofile
+            description: ""
+          - name: mediaattribution
+            description: ""
+          - name: mobileinfo
+            description: ""
+          - name: mobilenumber
+            description: ""
+          - name: needemergency
+            description: ""
+          - name: needfc2
+            description: ""
+          - name: notes
+            description: ""
+          - name: oldestunreadsmstime
+            description: ""
+          - name: questionnaireinfo
+            description: ""
+          - name: reminderstatus
+            description: ""
+          - name: requestcommentmedableid
+            description: ""
+          - name: requestcomments
+            description: ""
+          - name: roles
+            description: ""
+          - name: rxaddress
+            description: ""
+          - name: rxchangenote
+            description: ""
+          - name: rxcomid
+            description: ""
+          - name: rxmedableid
+            description: ""
+          - name: shippingaddress
+            description: ""
+          - name: stats
+            description: ""
+          - name: stripeid
+            description: ""
+          - name: taglist
+            description: ""
+          - name: telemednote
+            description: ""
+          - name: timezone
+            description: ""
+          - name: transfernote
+            description: ""
+          - name: uselongcode
+            description: ""
+          - name: utmlink
+            description: ""
+          - name: verificationcode
+            description: ""
+          - name: verificationstatus
+            description: ""
+          - name: visitorid
+            description: ""
+          - name: waitliststatus
+            description: ""
+          - name: rxid
+            description: ""
+          - name: rxaddressid
+            description: ""
+          - name: shippingaddressid
+            description: ""
+          - name: userauthmodelid
+            description: ""
+          - name: allowrenew
+            description: ""
+          - name: onboardedat
+            description: ""
+          - name: renewnote
+            description: ""
+          - name: renewnotes
+            description: ""
+          - name: importedat
+            description: ""
+          - name: hasselectedpop
+            description: ""
+          - name: importedovernullupdatedat
+            description: ""
+          - name: needoneyearsupply
+            description: ""
+          - name: amazonconnectusername
+            description: ""
+          - name: numberofcreditcardregistered
+            description: ""
+          - name: nextshippingdate
+            description: ""
+          - name: userqueue
+            description: ""
+          - name: signedup
+            description: ""
+          - name: signedupat
+            description: ""
+          - name: easypatient
+            description: ""
+          - name: allsmsimageread
+            description: ""
+          - name: hasactivecustomerorder
+            description: ""
+          - name: ssn
+            description: ""
+          - name: cornordyeallergies
+            description: ""
+          - name: foodallergies
+            description: ""
+          - name: medicineallergies
+            description: ""
+          - name: lastincomingsmstime
+            description: ""
+          - name: preferredname
+            description: ""
+          - name: preferredpronouns
+            description: ""
+
+      - name: accountcancelreason
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: cancelledat
+            description: ""
+          - name: isautocancelled
+            description: ""
+          - name: newaccountstatus
+            description: ""
+          - name: note
+            description: ""
+          - name: oldaccountstatus
+            description: ""
+          - name: reason
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+          - name: source
+            description: ""
+          - name: subreason
+            description: ""
+
+      - name: accountdetails
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: optinemergency
+            description: ""
+          - name: optinfc2
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: hardstopkitonly
+            description: ""
+          - name: chargeprescriptionfee
+            description: ""
+          - name: drugname
+            description: ""
+          - name: drugndc
+            description: ""
+          - name: drugspecified
+            description: ""
+          - name: drugtype
+            description: ""
+          - name: isgenericallowed
+            description: ""
+          - name: isskipperiod
+            description: ""
+          - name: sms30dayshippingsent
+            description: ""
+          - name: optinconfirmationstatus
+            description: ""
+          - name: needfollowupreminder
+            description: ""
+          - name: ipaddress
+            description: ""
+          - name: isreferredbycustomer
+            description: ""
+          - name: useragent
+            description: ""
+          - name: autofillconfirmation
+            description: ""
+          - name: autofillconfirmationupdatedat
+            description: ""
+
+      - name: accounttag
+        description: ""
+        columns:
+          - name: accountid
+            description: ""
+          - name: tagid
+            description: ""
+
+      - name: advocatemessage
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: campaign
+            description: ""
+          - name: createdat
+            description: ""
+          - name: messagesentat
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: bcdrug
+        description: ""
+        columns:
+          - name: ndc
+            description: ""
+          - name: bctype
+            description: ""
+          - name: canskipplacebo
+            description: ""
+          - name: cheapestaltndc
+            description: ""
+          - name: createtime
+            description: ""
+          - name: defaultdrug
+            description: ""
+          - name: name
+            description: ""
+          - name: updatetime
+            description: ""
+          - name: dosage
+            description: ""
+
+      - name: bulkactiontracking
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: actiontype
+            description: ""
+          - name: bulkactionendat
+            description: ""
+          - name: bulkactionstartat
+            description: ""
+          - name: createdat
+            description: ""
+          - name: patientcount
+            description: ""
+          - name: threadcount
+            description: ""
+          - name: totaltimeseconds
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: notes
+            description: ""
+
+      - name: campaign
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+          - name: email
+            description: ""
+          - name: firstname
+            description: ""
+          - name: lastname
+            description: ""
+          - name: mobilenumber
+            description: ""
+          - name: program
+            description: ""
+          - name: campaignkey
+            description: ""
+          - name: accountid
+            description: ""
+          - name: createdat
+            description: ""
+
+      - name: campaignshippinglabel
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: email
+            description: ""
+          - name: isprinted
+            description: ""
+          - name: labelurl
+            description: ""
+          - name: pharmacylocation
+            description: ""
+          - name: trackingcode
+            description: ""
+          - name: trackingurl
+            description: ""
+
+      - name: cashbugpatients
+        description: ""
+        columns:
+          - name: accountid
+            description: ""
+          - name: type
+            description: ""
+
+      - name: cashoption
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createtime
+            description: ""
+          - name: effective
+            description: ""
+          - name: freqinmonth
+            description: ""
+          - name: hybrid
+            description: ""
+          - name: price
+            description: ""
+          - name: size
+            description: ""
+          - name: skipplacebo
+            description: ""
+          - name: telemed
+            description: ""
+          - name: transfer
+            description: ""
+          - name: updatetime
+            description: ""
+          - name: bcdrugndc
+            description: ""
+
+      - name: cashorder
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: drugname
+            description: ""
+          - name: drugndc
+            description: ""
+          - name: drugprice
+            description: ""
+          - name: ecprice
+            description: ""
+          - name: monthssupply
+            description: ""
+          - name: prescriptionprice
+            description: ""
+          - name: totalprice
+            description: ""
+          - name: accountid
+            description: ""
+          - name: orderstate
+            description: ""
+
+      - name: changefilldaterequest
+        description: ""
+        columns:
+          - name: prescription_id
+            description: ""
+          - name: reason
+            description: ""
+          - name: requestedfilldate
+            description: ""
+          - name: status
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: updatedat
+            description: ""
+
+      - name: consent
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: category
+            description: ""
+          - name: createdat
+            description: ""
+          - name: expireat
+            description: ""
+          - name: prescriptionnumber
+            description: ""
+          - name: status
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: patientaccountid
+            description: ""
+          - name: prescriptionid
+            description: ""
+
+      - name: consenthistory
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: category
+            description: ""
+          - name: consentid
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: source
+            description: ""
+
+      - name: copay
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: action
+            description: ""
+          - name: copay
+            description: ""
+          - name: createdat
+            description: ""
+          - name: datein
+            description: ""
+          - name: drugtype
+            description: ""
+          - name: isannovera
+            description: ""
+          - name: ordertype
+            description: ""
+          - name: paymenttype
+            description: ""
+          - name: status
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: customerorder
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: orderstate
+            description: ""
+          - name: ordertype
+            description: ""
+          - name: accountid
+            description: ""
+          - name: customerorderstate
+            description: ""
+          - name: expirationdate
+            description: ""
+          - name: frequency
+            description: ""
+          - name: nextshipdate
+            description: ""
+          - name: paymenttype
+            description: ""
+          - name: cancelreason
+            description: ""
+          - name: canceldate
+            description: ""
+
+      - name: customerorderselection
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: bcdrug
+            description: ""
+          - name: ec
+            description: ""
+          - name: accountid
+            description: ""
+          - name: fc2
+            description: ""
+          - name: fc
+            description: ""
+          - name: bcdrugdata
+            description: ""
+          - name: ecdata
+            description: ""
+          - name: fc2data
+            description: ""
+
+      - name: databasechangelog
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: author
+            description: ""
+          - name: filename
+            description: ""
+          - name: dateexecuted
+            description: ""
+          - name: orderexecuted
+            description: ""
+          - name: exectype
+            description: ""
+          - name: md5sum
+            description: ""
+          - name: description
+            description: ""
+          - name: comments
+            description: ""
+          - name: tag
+            description: ""
+          - name: liquibase
+            description: ""
+          - name: contexts
+            description: ""
+          - name: labels
+            description: ""
+          - name: deployment_id
+            description: ""
+
+      - name: databasechangeloglock
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: locked
+            description: ""
+          - name: lockgranted
+            description: ""
+          - name: lockedby
+            description: ""
+
+      - name: embeddedquicksightentity
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: dashboardid
+            description: ""
+          - name: label
+            description: ""
+
+      - name: employer
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: employercompanyname
+            description: ""
+          - name: employeremaildomain
+            description: ""
+          - name: src
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: url
+            description: ""
+
+      - name: employerinvite
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: toemail
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: employerid
+            description: ""
+
+      - name: experiment
+        description: ""
+        columns:
+          - name: accountid
+            description: ""
+          - name: experimentid
+            description: ""
+          - name: experimentvalue
+            description: ""
+
+      - name: fataccountcomparison
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: lastcomparison
+            description: ""
+          - name: lastfailedat
+            description: ""
+          - name: lastfailedesresult
+            description: ""
+          - name: lastfailedrdsresult
+            description: ""
+          - name: lastnumberofattemptsandpassed
+            description: ""
+          - name: lastpassedat
+            description: ""
+          - name: lastpassedresult
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+
+      - name: faxmodel
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: datetime
+            description: ""
+          - name: faxid
+            description: ""
+          - name: patientfirstname
+            description: ""
+          - name: patientlastname
+            description: ""
+
+      - name: fc2refill
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: lastfilleddate
+            description: ""
+          - name: nextfilleddate
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: fc2refillhistory
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: bcdayssupply
+            description: ""
+          - name: createdat
+            description: ""
+          - name: eligibleforfc2
+            description: ""
+          - name: lastfilleddate
+            description: ""
+          - name: needfc2
+            description: ""
+          - name: nextfilleddate
+            description: ""
+          - name: updaterid
+            description: ""
+
+      - name: hibernate_sequence
+        description: ""
+        columns:
+          - name: next_val
+            description: ""
+
+      - name: identityverification
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: lastidentityverificationcheckedat
+            description: ""
+          - name: socureidentityverificationresult
+            description: ""
+          - name: status
+            description: ""
+          - name: type
+            description: ""
+          - name: accountid
+            description: ""
+          - name: documentcountry
+            description: ""
+          - name: documentnumber
+            description: ""
+          - name: documentstate
+            description: ""
+          - name: documenttype
+            description: ""
+          - name: socuredocumentverificationresult
+            description: ""
+
+      - name: inboundsmsformedical
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: ismedical
+            description: ""
+          - name: message
+            description: ""
+          - name: mmliteresult
+            description: ""
+          - name: phone
+            description: ""
+          - name: classifier
+            description: ""
+          - name: classificationresult
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: isurgent
+            description: ""
+
+      - name: insurance
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: active
+            description: ""
+          - name: bin
+            description: ""
+          - name: company
+            description: ""
+          - name: eligibilitycheckresult
+            description: ""
+          - name: groupnumber
+            description: ""
+          - name: memberid
+            description: ""
+          - name: pcn
+            description: ""
+          - name: personcode
+            description: ""
+          - name: type
+            description: ""
+          - name: insuranceimageback_id
+            description: ""
+          - name: insuranceimagefront_id
+            description: ""
+          - name: lasteligibilitycheckat
+            description: ""
+          - name: accountid
+            description: ""
+          - name: comment
+            description: ""
+          - name: lockedforprocessinguntil
+            description: ""
+          - name: plandescription
+            description: ""
+          - name: planownerdob
+            description: ""
+          - name: planownerfirstname
+            description: ""
+          - name: planownerlastname
+            description: ""
+          - name: plantype
+            description: ""
+          - name: rxidnumber
+            description: ""
+          - name: status
+            description: ""
+          - name: planowneraddressid
+            description: ""
+          - name: rxcardimageback_id
+            description: ""
+          - name: rxcardimagefront_id
+            description: ""
+          - name: insurancecompanyid
+            description: ""
+          - name: pharmacystatus
+            description: ""
+          - name: requestinforeason
+            description: ""
+          - name: pharmacycheckresult
+            description: ""
+          - name: lastpharmacycheckat
+            description: ""
+          - name: lastverifiedat
+            description: ""
+          - name: epsprecheckat
+            description: ""
+          - name: epsprecheckstatus
+            description: ""
+          - name: lastrootsrequestid
+            description: ""
+          - name: rootsrequestcallbackstatus
+            description: ""
+          - name: rootsrequestcallbackstatusupdatedat
+            description: ""
+
+      - name: insurancearchivedimage
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: s3objectid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: insuranceid
+            description: ""
+          - name: s3category
+            description: ""
+          - name: updaterid
+            description: ""
+
+      - name: insurancecompany
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: edinumber
+            description: ""
+          - name: name
+            description: ""
+          - name: planname
+            description: ""
+          - name: pokitdoktradingpartnerid
+            description: ""
+          - name: insurancecompanyaddressid
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: createdat
+            description: ""
+
+      - name: insurancecompanyaddress
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+          - name: phone
+            description: ""
+
+      - name: internalcomment
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: comment
+            description: ""
+          - name: accountid
+            description: ""
+          - name: commenterid
+            description: ""
+
+      - name: internalcomment_v_bak
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: comment
+            description: ""
+          - name: accountid
+            description: ""
+          - name: commenterid
+            description: ""
+
+      - name: locationconfig
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: cashippinggroup
+            description: ""
+          - name: minpatientage
+            description: ""
+          - name: preferredpharmacystate
+            description: ""
+          - name: telemedallowed
+            description: ""
+          - name: txshippinggroup
+            description: ""
+          - name: cashippingzone
+            description: ""
+          - name: txshippingzone
+            description: ""
+          - name: medicaidlabel
+            description: ""
+          - name: syncvisitrequirement
+            description: ""
+          - name: rxchangesyncvisitrequirement
+            description: ""
+          - name: syncappointmenturl
+            description: ""
+          - name: syncwaitingroomurl
+            description: ""
+          - name: syncmedicaidappointmenturl
+            description: ""
+          - name: generalmedsminprescribeage
+            description: ""
+
+      - name: managedupload
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: reasonforuploadtype
+            description: ""
+          - name: reasonforuploadvalue
+            description: ""
+          - name: accountid
+            description: ""
+          - name: s3objectid
+            description: ""
+
+      - name: manageduploadcategories
+        description: ""
+        columns:
+          - name: managedupload_id
+            description: ""
+          - name: category
+            description: ""
+
+      - name: medableimageconversionmodel
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: imagecategory
+            description: ""
+          - name: medableetag
+            description: ""
+          - name: medablepath
+            description: ""
+          - name: s3objectmodel_id
+            description: ""
+          - name: s3object_id
+            description: ""
+
+      - name: medicalcompany
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: line1
+            description: ""
+          - name: line2
+            description: ""
+          - name: phone
+            description: ""
+          - name: state
+            description: ""
+          - name: zip_code
+            description: ""
+          - name: createdat
+            description: ""
+          - name: edinumber
+            description: ""
+          - name: name
+            description: ""
+          - name: pokitdoktradingpartnerid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: isactive
+            description: ""
+          - name: npi
+            description: ""
+          - name: memberidformat
+            description: ""
+          - name: ismedicaid
+            description: ""
+          - name: cleanedupname
+            description: ""
+          - name: tradingpartnerid
+            description: ""
+          - name: medicaidstates
+            description: ""
+          - name: pharmacyknownhealthplan
+            description: ""
+          - name: plantype
+            description: ""
+          - name: thirdpartywebsite
+            description: ""
+
+      - name: nlpsmsresponserecord
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountstatus
+            description: ""
+          - name: createdat
+            description: ""
+          - name: differentlabels
+            description: ""
+          - name: message
+            description: ""
+          - name: mobilenumber
+            description: ""
+          - name: robertaresponse
+            description: ""
+          - name: sentiment
+            description: ""
+          - name: useresponse
+            description: ""
+          - name: winner
+            description: ""
+          - name: winninglabel
+            description: ""
+          - name: messageprocesstype
+            description: ""
+          - name: ticketnumber
+            description: ""
+          - name: winningconfidence
+            description: ""
+          - name: winningmessage
+            description: ""
+          - name: action
+            description: ""
+
+      - name: note
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: body
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: onlinestatus
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: connectedat
+            description: ""
+          - name: context
+            description: ""
+          - name: contextualaction
+            description: ""
+          - name: disconnectedat
+            description: ""
+          - name: isonline
+            description: ""
+          - name: lastconnectedeventid
+            description: ""
+          - name: lastdisconnectedeventid
+            description: ""
+          - name: role
+            description: ""
+
+      - name: orderitem
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createtime
+            description: ""
+          - name: drugndc
+            description: ""
+          - name: itemname
+            description: ""
+          - name: orderitemstate
+            description: ""
+          - name: price
+            description: ""
+          - name: quantity
+            description: ""
+          - name: updatetime
+            description: ""
+          - name: orderid
+            description: ""
+          - name: freqinmonth
+            description: ""
+          - name: itemtype
+            description: ""
+          - name: ordertype
+            description: ""
+          - name: shippinglabelid
+            description: ""
+          - name: nextshipdate
+            description: ""
+          - name: sku
+            description: ""
+          - name: priceplan_id
+            description: ""
+          - name: priceplanid
+            description: ""
+
+      - name: orderitemcancelreason
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: cancelledat
+            description: ""
+          - name: isautocancelled
+            description: ""
+          - name: note
+            description: ""
+          - name: reason
+            description: ""
+          - name: source
+            description: ""
+          - name: subreason
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: productline
+            description: ""
+          - name: accountid
+            description: ""
+          - name: orderitemid
+            description: ""
+
+      - name: orderitemproperty
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createtime
+            description: ""
+          - name: name
+            description: ""
+          - name: value
+            description: ""
+          - name: itemid
+            description: ""
+
+      - name: orderpdxtransaction
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: datein
+            description: ""
+          - name: insurance
+            description: ""
+          - name: nr
+            description: ""
+          - name: patient
+            description: ""
+          - name: payamount
+            description: ""
+          - name: phone
+            description: ""
+          - name: quantity
+            description: ""
+          - name: rph
+            description: ""
+          - name: rxnumber
+            description: ""
+          - name: status
+            description: ""
+          - name: orderid
+            description: ""
+
+      - name: ordershipment
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: city
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+          - name: shippinglabelid
+            description: ""
+
+      - name: ordershipmentdetail
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: orderitemid
+            description: ""
+          - name: ordershipmentid
+            description: ""
+          - name: paymenttransactionorderitemid
+            description: ""
+          - name: pharmacytransactionid
+            description: ""
+
+      - name: ordershipmentitems
+        description: ""
+        columns:
+          - name: ordershipmentid
+            description: ""
+          - name: orderitemid
+            description: ""
+
+      - name: patientanswer
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: answerat
+            description: ""
+          - name: createdat
+            description: ""
+          - name: patientaccountid
+            description: ""
+          - name: questionkey
+            description: ""
+          - name: questionversion
+            description: ""
+          - name: questionnaireid
+            description: ""
+          - name: answerjson
+            description: ""
+          - name: questionversionstring
+            description: ""
+          - name: tmpqatype
+            description: ""
+
+      - name: patientquestion
+        description: ""
+        columns:
+          - name: questionkey
+            description: ""
+          - name: version
+            description: ""
+          - name: createdat
+            description: ""
+          - name: question
+            description: ""
+          - name: versionlabel
+            description: ""
+
+      - name: paymenttransaction
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: amount
+            description: ""
+          - name: createtime
+            description: ""
+          - name: description
+            description: ""
+          - name: paymentprocessid
+            description: ""
+          - name: paymentstatus
+            description: ""
+          - name: paymenttype
+            description: ""
+          - name: processnotes
+            description: ""
+          - name: updatetime
+            description: ""
+          - name: orderid
+            description: ""
+          - name: taxamount
+            description: ""
+          - name: taxrate
+            description: ""
+          - name: totalprice
+            description: ""
+          - name: reftransactionid
+            description: ""
+          - name: shipping
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: pharmacyaddress
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+          - name: pharmacycontactid
+            description: ""
+
+      - name: pharmacycontact
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: email
+            description: ""
+          - name: fax
+            description: ""
+          - name: firstname
+            description: ""
+          - name: lastname
+            description: ""
+          - name: phone
+            description: ""
+          - name: ncpdpid
+            description: ""
+          - name: npi
+            description: ""
+
+      - name: pharmacytransaction
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: adjudicationrejectioncode
+            description: ""
+          - name: adjudicationrejectiondescription
+            description: ""
+          - name: adjudicationresult
+            description: ""
+          - name: bin
+            description: ""
+          - name: createdat
+            description: ""
+          - name: dayssupply
+            description: ""
+          - name: drugname
+            description: ""
+          - name: drugndc
+            description: ""
+          - name: fillquantity
+            description: ""
+          - name: filltype
+            description: ""
+          - name: insurancecarriercode
+            description: ""
+          - name: lastnotificationsentat
+            description: ""
+          - name: modeldecision
+            description: ""
+          - name: orderitemid
+            description: ""
+          - name: patientid
+            description: ""
+          - name: patientname
+            description: ""
+          - name: patientphonenumber
+            description: ""
+          - name: payamount
+            description: ""
+          - name: paymenttransactionorderitemid
+            description: ""
+          - name: pcn
+            description: ""
+          - name: pharmacist
+            description: ""
+          - name: pharmacy
+            description: ""
+          - name: prescriptionnumber
+            description: ""
+          - name: prescriptiontransactionnumber
+            description: ""
+          - name: processnotes
+            description: ""
+          - name: productline
+            description: ""
+          - name: skipreason
+            description: ""
+          - name: status
+            description: ""
+          - name: transmissionid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: dummytransaction
+            description: ""
+          - name: overridingpayamount
+            description: ""
+
+      - name: planowneraddress
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+
+      - name: prescriber
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: firstname
+            description: ""
+          - name: lastname
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: credentials
+            description: ""
+          - name: email
+            description: ""
+          - name: title
+            description: ""
+          - name: titleprefix
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: prescription
+        description: "This is the table that has a record of the latest prescription per user"
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: dayssupply
+            description: ""
+          - name: lastfilleddate
+            description: ""
+          - name: nextfilleddate
+            description: ""
+          - name: prescriptionexpirationdate
+            description: ""
+          - name: prescriptionnumber
+            description: "same as rx_number in eps"
+          - name: prescriptiontxnumber
+            description: ""
+          - name: quantityleft
+            description: ""
+          - name: type
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: accountid
+            description: ""
+          - name: prescriberid
+            description: ""
+          - name: drugndc
+            description: ""
+          - name: hassamerxonfile
+            description: ""
+          - name: lastsolddate
+            description: ""
+          - name: storeid
+            description: "same as nhin_store_id"
+          - name: status
+            description: ""
+          - name: drugname
+            description: ""
+          - name: quantity
+            description: ""
+          - name: writtendate
+            description: ""
+          - name: price
+            description: ""
+          - name: autofill
+            description: ""
+
+      - name: processtoken
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: creatorid
+            description: ""
+          - name: expiredat
+            description: ""
+          - name: expiresat
+            description: ""
+          - name: processlink
+            description: ""
+          - name: processtype
+            description: ""
+          - name: token
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: visiblelink
+            description: ""
+          - name: role
+            description: ""
+
+      - name: processtokendata
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: value
+            description: ""
+          - name: name
+            description: ""
+
+      - name: product
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: brand
+            description: ""
+          - name: createdat
+            description: ""
+          - name: description
+            description: ""
+          - name: name
+            description: ""
+          - name: type
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: productline
+            description: ""
+          - name: shortdescription
+            description: ""
+
+      - name: productpriceplan
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: active
+            description: ""
+          - name: chargetype
+            description: ""
+          - name: createdat
+            description: ""
+          - name: planduration
+            description: ""
+          - name: price
+            description: ""
+          - name: quantity
+            description: ""
+          - name: refillfrequency
+            description: ""
+          - name: remark
+            description: ""
+          - name: shipping
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: productvariantid
+            description: ""
+          - name: maxpurchasequantity
+            description: ""
+          - name: paymentmethod
+            description: ""
+          - name: isdefault
+            description: ""
+          - name: originalprice
+            description: ""
+          - name: processingtype
+            description: ""
+
+      - name: productvariant
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: content
+            description: ""
+          - name: createdat
+            description: ""
+          - name: description
+            description: ""
+          - name: name
+            description: ""
+          - name: ndc
+            description: ""
+          - name: productvariantgroup
+            description: ""
+          - name: upc
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: productid
+            description: ""
+          - name: isdefault
+            description: ""
+          - name: quantityperunit
+            description: ""
+          - name: unit
+            description: ""
+
+      - name: productvariantavailability
+        description: ""
+        columns:
+          - name: usstate
+            description: ""
+          - name: available
+            description: ""
+          - name: createdat
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: productvariantid
+            description: ""
+          - name: adminonly
+            description: ""
+
+      - name: questionanswer
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: created
+            description: ""
+          - name: creatorid
+            description: ""
+          - name: invalidated
+            description: ""
+          - name: invalidatorid
+            description: ""
+          - name: name
+            description: ""
+          - name: questionset
+            description: ""
+          - name: value
+            description: ""
+
+      - name: questionnaire
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: answers
+            description: ""
+          - name: note
+            description: ""
+          - name: status
+            description: ""
+          - name: type
+            description: ""
+          - name: rximagefront_id
+            description: ""
+          - name: rejectionreasons
+            description: ""
+          - name: accountid
+            description: ""
+          - name: bpmprocessdefinitionid
+            description: ""
+          - name: metadata
+            description: ""
+
+      - name: questionnairemigration
+        description: ""
+        columns:
+          - name: questionnaireid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: meta
+            description: ""
+          - name: migratedat
+            description: ""
+
+      - name: reminderlog
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: remindernum
+            description: ""
+          - name: remindertype
+            description: ""
+          - name: sentat
+            description: ""
+          - name: smstemplatename
+            description: ""
+          - name: accountid
+            description: ""
+          - name: source
+            description: ""
+          - name: sourceid
+            description: ""
+
+      - name: reminderstatus
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: lastremindernum
+            description: ""
+          - name: lastsentat
+            description: ""
+          - name: remindertype
+            description: ""
+          - name: accountid
+            description: ""
+          - name: source
+            description: ""
+          - name: sourceid
+            description: ""
+
+      - name: rootscallbackdata
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: cardid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: insuranceprovider
+            description: ""
+          - name: insuranceresult
+            description: ""
+          - name: intermediateresult
+            description: ""
+          - name: knownhealthplan
+            description: ""
+          - name: patientid
+            description: ""
+          - name: pillclubrequestid
+            description: ""
+          - name: rxbin
+            description: ""
+          - name: rxgroup
+            description: ""
+          - name: rxid
+            description: ""
+          - name: rxpcn
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: rejectreason
+            description: ""
+          - name: rejected
+            description: ""
+          - name: recheck
+            description: ""
+
+      - name: rootsrequestdata
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: callbackdataid
+            description: ""
+          - name: cardholderdob
+            description: ""
+          - name: cardholderfirstname
+            description: ""
+          - name: cardholderlastname
+            description: ""
+          - name: cardholderrelation
+            description: ""
+          - name: cardid
+            description: ""
+          - name: insuranceid
+            description: ""
+          - name: insuranceprovider
+            description: ""
+          - name: knownhealthplan
+            description: ""
+          - name: medicalcardbacks3objectid
+            description: ""
+          - name: medicalcardfronts3objectid
+            description: ""
+          - name: patientdob
+            description: ""
+          - name: patientfirstname
+            description: ""
+          - name: patientid
+            description: ""
+          - name: patientlastname
+            description: ""
+          - name: patientssn
+            description: ""
+          - name: patientstate
+            description: ""
+          - name: pharmacycardbacks3objectid
+            description: ""
+          - name: pharmacycardfronts3objectid
+            description: ""
+          - name: recheck
+            description: ""
+          - name: rxbin
+            description: ""
+          - name: rxgroup
+            description: ""
+          - name: rxid
+            description: ""
+          - name: rxpcn
+            description: ""
+          - name: createdat
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: requestsource
+            description: ""
+
+      - name: rx
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: datelastfilled
+            description: ""
+          - name: datetransferred
+            description: ""
+          - name: datewritten
+            description: ""
+          - name: dearegistrationnumber
+            description: ""
+          - name: drugname
+            description: ""
+          - name: mdname
+            description: ""
+          - name: mdphone
+            description: ""
+          - name: nationaldrugcode
+            description: ""
+          - name: nationalproviderid
+            description: ""
+          - name: note
+            description: ""
+          - name: pharmacyaddress
+            description: ""
+          - name: quantitydispensed
+            description: ""
+          - name: quantitywritten
+            description: ""
+          - name: receivedbyname
+            description: ""
+          - name: refills
+            description: ""
+          - name: rxnumber
+            description: ""
+          - name: sentbyname
+            description: ""
+          - name: sig
+            description: ""
+          - name: accountid
+            description: ""
+          - name: originalrefillsprescribed
+            description: ""
+          - name: quantityremaining
+            description: ""
+          - name: refillsremaining
+            description: ""
+          - name: pharmacyphonenumber
+            description: ""
+
+      - name: rxaddress
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+
+      - name: rxonboarding
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: followupdate
+            description: ""
+          - name: genericallowed
+            description: ""
+          - name: needbydate
+            description: ""
+          - name: pharmacyinfo
+            description: ""
+          - name: pharmacyphone
+            description: ""
+          - name: preferredbrands
+            description: ""
+          - name: status
+            description: ""
+          - name: type
+            description: ""
+          - name: pharmacyid
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: s3object
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: bucketname
+            description: ""
+          - name: etag
+            description: ""
+          - name: objectkey
+            description: ""
+
+      - name: schedulelock
+        description: ""
+        columns:
+          - name: jobname
+            description: ""
+          - name: lockedby
+            description: ""
+          - name: lockeddatetime
+            description: ""
+          - name: lockeduntiltime
+            description: ""
+
+      - name: schedulelog
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: description
+            description: ""
+          - name: jobname
+            description: ""
+          - name: schedulename
+            description: ""
+          - name: status
+            description: ""
+          - name: enddatetime
+            description: ""
+          - name: executedby
+            description: ""
+          - name: startdatetime
+            description: ""
+
+      - name: searchcomparison
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: comparison
+            description: ""
+          - name: createdat
+            description: ""
+          - name: esresult
+            description: ""
+          - name: querydslresult
+            description: ""
+          - name: searchcriteria
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: esquery
+            description: ""
+
+      - name: shippingaddress
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: city
+            description: ""
+          - name: googleplacesid
+            description: ""
+          - name: latitude
+            description: ""
+          - name: lineone
+            description: ""
+          - name: linetwo
+            description: ""
+          - name: longitude
+            description: ""
+          - name: state
+            description: ""
+          - name: zip
+            description: ""
+          - name: zipplus4
+            description: ""
+          - name: timezone
+            description: ""
+
+      - name: shippingbatch
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: carrieraccountid
+            description: ""
+          - name: carrierreference
+            description: ""
+          - name: createdat
+            description: ""
+          - name: easypostbatchid
+            description: ""
+          - name: isscanformcreated
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: status
+            description: ""
+
+      - name: shippinglabel
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: carrieraccountid
+            description: ""
+          - name: carriername
+            description: ""
+          - name: createdat
+            description: ""
+          - name: estimateddeliverydate
+            description: ""
+          - name: refundedat
+            description: ""
+          - name: refunderid
+            description: ""
+          - name: shipmentid
+            description: ""
+          - name: shippingtype
+            description: ""
+          - name: trackingcode
+            description: ""
+          - name: trackingurl
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+          - name: batchid
+            description: ""
+          - name: creatorid
+            description: ""
+          - name: rxid
+            description: ""
+          - name: prescriptionnumber
+            description: ""
+          - name: prescriptiontxnumber
+            description: ""
+          - name: status
+            description: ""
+          - name: deliveredat
+            description: ""
+
+      - name: shippinglabelmappingpdx
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: prescriptionnumber
+            description: ""
+          - name: prescriptiontxnumber
+            description: ""
+          - name: rxcomid
+            description: ""
+          - name: type
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: shippinglabelid
+            description: ""
+
+      - name: shippingscanform
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: easypostscanformid
+            description: ""
+          - name: errormessage
+            description: ""
+          - name: formurl
+            description: ""
+          - name: isprinted
+            description: ""
+          - name: numberofshippments
+            description: ""
+          - name: status
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: shippingbatchid
+            description: ""
+
+      - name: shoppingcartitem
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: quantity
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+          - name: productpriceplanid
+            description: ""
+
+      - name: sms
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: hasaccount
+            description: ""
+          - name: isread
+            description: ""
+          - name: mobile
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: smsimagetoreview
+        description: ""
+        columns:
+          - name: accountid
+            description: ""
+          - name: s3objectid
+            description: ""
+
+      - name: smssentlog
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: fromaccountid
+            description: ""
+          - name: messagesid
+            description: ""
+          - name: mobilenumber
+            description: ""
+          - name: sentat
+            description: ""
+
+      - name: smstemplate
+        description: ""
+        columns:
+          - name: name
+            description: ""
+          - name: segmentnumber
+            description: ""
+          - name: createdat
+            description: ""
+          - name: message
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: hotkey
+            description: ""
+          - name: department
+            description: ""
+
+      - name: syncvisitlog
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: action
+            description: ""
+          - name: eventtype
+            description: ""
+          - name: isparticipantconnected
+            description: ""
+          - name: participantaccountid
+            description: ""
+          - name: participantduration
+            description: ""
+          - name: participantexternalid
+            description: ""
+          - name: patientaccountid
+            description: ""
+          - name: resourceid
+            description: ""
+          - name: sequencenumber
+            description: ""
+          - name: timestamp
+            description: ""
+          - name: eventtypestring
+            description: ""
+          - name: context
+            description: ""
+
+      - name: tag
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: name
+            description: ""
+          - name: type
+            description: ""
+
+      - name: ticketstatus
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: needpatientresponse
+            description: ""
+          - name: responserequestedat
+            description: ""
+          - name: ticketid
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: tmpaccountdetailsbackfillerr
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: createdat
+            description: ""
+          - name: errormessage
+            description: ""
+
+      - name: tmparchivecampaign
+        description: ""
+        columns:
+          - name: id
+            description: ""
+
+      - name: tmpcloseaccountprocessed
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: accountlastupdatedat
+            description: ""
+          - name: commentcreatedat
+            description: ""
+          - name: createdat
+            description: ""
+          - name: latestinternalcomment
+            description: ""
+
+      - name: tmpprescriptionbackfillerr
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: errormessage
+            description: ""
+          - name: rxcomid
+            description: ""
+          - name: createdat
+            description: ""
+
+      - name: todoitem
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: todokey
+            description: ""
+          - name: accountid
+            description: ""
+          - name: currentstatuschangeid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: status
+            description: ""
+          - name: previousstatus
+            description: ""
+          - name: sourceid
+            description: ""
+          - name: source
+            description: ""
+
+      - name: todoitemstatuschange
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: fromstatus
+            description: ""
+          - name: tostatus
+            description: ""
+          - name: tododefinition
+            description: ""
+          - name: todoitemid
+            description: ""
+
+      - name: todostatuschange
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: fromstatus
+            description: ""
+          - name: tostatus
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: todoitemid
+            description: ""
+          - name: accountid
+            description: ""
+          - name: seconds
+            description: ""
+          - name: todokey
+            description: ""
+
+      - name: truepillaccount
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: daysupply
+            description: ""
+          - name: issubok
+            description: ""
+          - name: isvalid
+            description: ""
+          - name: lastfilldate
+            description: ""
+          - name: medicationname
+            description: ""
+          - name: ndc
+            description: ""
+          - name: pillclubrxnumber
+            description: ""
+          - name: quantitydispensed
+            description: ""
+          - name: refillsremaining
+            description: ""
+          - name: rxcomid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+
+      - name: truepillaction
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: dispdrugname
+            description: ""
+          - name: carrier
+            description: ""
+          - name: copayamount
+            description: ""
+          - name: createdat
+            description: ""
+          - name: nextrefilldate
+            description: ""
+          - name: primarybin
+            description: ""
+          - name: primarygroup
+            description: ""
+          - name: primarypcn
+            description: ""
+          - name: rejectcode
+            description: ""
+          - name: rejectnotes
+            description: ""
+          - name: secondarybin
+            description: ""
+          - name: secondarygroup
+            description: ""
+          - name: secondarypcn
+            description: ""
+          - name: shipdate
+            description: ""
+          - name: trackingnumber
+            description: ""
+          - name: truepillinsuranceid1
+            description: ""
+          - name: truepillinsuranceid2
+            description: ""
+          - name: truepillid
+            description: ""
+          - name: truepillrxnumber
+            description: ""
+          - name: trupillordernumber
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: haserror
+            description: ""
+          - name: previousnextrefilldate
+            description: ""
+          - name: truepillfillrequesttoken
+            description: ""
+          - name: truepillinsurancetoken1
+            description: ""
+          - name: truepillinsurancetoken2
+            description: ""
+          - name: truepillordertoken
+            description: ""
+          - name: truepillpatienttoken
+            description: ""
+          - name: truepillrxtoken
+            description: ""
+
+      - name: truepillrejectcode
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: code
+            description: ""
+          - name: createdat
+            description: ""
+          - name: description
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+
+      - name: userattribute
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: name
+            description: ""
+          - name: state
+            description: ""
+          - name: userqueueid
+            description: ""
+
+      - name: userattributequeuemapping
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: attributename
+            description: ""
+          - name: queuename
+            description: ""
+
+      - name: userauthmodel
+        description: ""
+        columns:
+          - name: useremail
+            description: ""
+          - name: medableuserid
+            description: ""
+          - name: userpassword
+            description: ""
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: isaccountnonlocked
+            description: ""
+          - name: iscredentialsnonexpired
+            description: ""
+          - name: temporarytoken
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: authtype
+            description: ""
+          - name: temporarytokenexpirydate
+            description: ""
+          - name: invalidpasswordattempts
+            description: ""
+          - name: accountverificationcode
+            description: ""
+          - name: accountverificationstatus
+            description: ""
+          - name: organizationalgrantedauthority
+            description: ""
+
+      - name: userintent
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: intentstatus
+            description: ""
+          - name: productline
+            description: ""
+          - name: servicetype
+            description: ""
+          - name: accountid
+            description: ""
+
+      - name: userqueue
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: medableid
+            description: ""
+          - name: ownermedableid
+            description: ""
+          - name: updatedat
+            description: ""
+          - name: updaterid
+            description: ""
+          - name: name
+            description: ""
+          - name: referenceid
+            description: ""
+          - name: accountid
+            description: ""
+          - name: source
+            description: ""
+          - name: sourceid
+            description: ""
+          - name: productline
+            description: ""
+
+      - name: userstatemapping
+        description: ""
+        columns:
+          - name: value
+            description: ""
+          - name: name
+            description: ""
+
+      - name: v_view_dependency_bak
+        description: ""
+        columns:
+          - name: src_oid
+            description: ""
+          - name: src_schemaname
+            description: ""
+          - name: src_objectname
+            description: ""
+          - name: dependent_viewoid
+            description: ""
+          - name: dependant_schemaname
+            description: ""
+          - name: dependant_objectname
+            description: ""
+
+      - name: voicecall
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: amazonconnectcontactid
+            description: ""
+          - name: callinfo
+            description: ""
+          - name: calltype
+            description: ""
+          - name: duration
+            description: ""
+          - name: fromphonenumber
+            description: ""
+          - name: queue
+            description: ""
+          - name: receivedat
+            description: ""
+          - name: agentaccountid
+            description: ""
+          - name: callrecordingid
+            description: ""
+          - name: patientaccountid
+            description: ""
+
+      - name: voicemail
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: audiorequrl
+            description: ""
+          - name: callsid
+            description: ""
+          - name: fromphonenumber
+            description: ""
+          - name: receivedat
+            description: ""
+          - name: recordingduration
+            description: ""
+          - name: recordingsid
+            description: ""
+          - name: recordingstatus
+            description: ""
+          - name: recordingurl
+            description: ""
+          - name: resolved
+            description: ""
+          - name: resolvedat
+            description: ""
+          - name: tophonenumber
+            description: ""
+          - name: assigneeaccountid
+            description: ""
+          - name: voicemailrecording_id
+            description: ""
+
+      - name: workqueuelock
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: accountid
+            description: ""
+          - name: checkedinat
+            description: ""
+          - name: checkedoutat
+            description: ""
+          - name: checkedoutby
+            description: ""
+          - name: checkedoutexpiresat
+            description: ""
+          - name: lockid
+            description: ""
+          - name: queuename
+            description: ""
+
+      - name: yotpowebhookmodel
+        description: ""
+        columns:
+          - name: id
+            description: ""
+          - name: createdat
+            description: ""
+          - name: eventtype
+            description: ""
+          - name: payload
+            description: ""
+          - name: points
+            description: ""
+          - name: referralaccid
+            description: ""
+          - name: referralemail
+            description: ""
+          - name: referreraccid
+            description: ""
+          - name: referreremail
+            description: ""
